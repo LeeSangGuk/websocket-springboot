@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Insert title here</title>
+		
+		<script src="js/sockjs.min.js" defer></script>
+		<script src="js/stomp.min.js" defer></script>
+		<script src="js/main.js" defer></script>
+		
+		<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/hepcdhinminfmgccnipghmhljppibghg">
+		
+	</head>
+	<body>
+		<form>
+			<input type="text" name="contents" id="sendText">
+			<input type="submit"	value="발사"  id="sendBtn"></input>
+			<input type="submit"	value="발사2"  id="sendBtn2"></input>
+		</form>
+		<div>헬로</div>
+		<ul id ="chatList">
+		
+		</ul>
+		
+		<button onclick="chrome.webstore.install()" id="install-button">Add to Chrome</button>
+		
+		<script>
+		if (chrome.app.isInstalled) {
+		  document.getElementById('install-button').style.display = 'none';
+		}
+		
+		var isInstalledNode = document.createElement('div');
+		isInstalledNode.id = 'extension-is-installed';
+		document.body.appendChild(isInstalledNode);
+		</script>
+	</body>
+</html>

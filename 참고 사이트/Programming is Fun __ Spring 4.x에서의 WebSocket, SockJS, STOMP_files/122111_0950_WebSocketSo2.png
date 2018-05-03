@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+
+    <title>NAVER D2</title>
+
+    <link rel="stylesheet" type="text/css" href="/static/css/xeicon.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/naver_d2.from_server.css">
+<link href="/static/css/app.css" rel="stylesheet"></head>
+
+<body>
+<div id="wrap" class="main">
+    <div id="header">
+        <div class="main_lnb">
+            <div class="header_sec">
+                <div class="inner_sec">
+                    <div id="lnb" class="lnb">
+                        <h1><a href="/home" target="_self" class="lnb_top_logo"><span class="blind">naver D2</span></a></h1>
+                        <div class="menu_sec">
+                            <div class="btn_lnb_menu"><a href="#"><span class="blind">메뉴</span></a></div>
+                            <ul>
+                                <li><a href="/helloworld">Hello world</a></li>
+                                <li><a href="/news">D2 News</a></li>
+                                <li><a href="/program">D2 Program</a></li>
+                                <li><a href="/about">About D2</a></li>
+                            </ul>
+                        </div>
+                        <div class="m_search_sec">
+                            <div class="btn_lnb_search"><a href="#"><span class="blind">검색</span></a></div>
+                            <input type="text" placeholder="D2에서 검색">
+                        </div>
+                        <div class="pc_search_input">
+                            <fieldset>
+                                <legend>검색</legend>
+                                <input type="text" placeholder="D2에서 검색" name="" class="search_area">
+                                <input type="submit" value="" class="btn_search">
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="container">
+        <div class="con_area">
+            <div class="contents">
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="inner_sec">
+            <div class="footer_sec">
+                <ul class="other_site">
+                    <li><a href="http://developers.naver.com/" target="_blank" class="developers">NAVER Developers</a></li>
+                    <li><a href="http://deview.kr/" target="_blank" class="deview">DEVIEW</a></li>
+                    <li><a href="http://naver.github.io/" target="_blank" class="opensource">OpenSource</a></li>
+                    <li><a href="http://www.d2startup.com/" target="_blank" class="startup">D2 STARTUP FACTORY</a></li>
+                </ul>
+
+                <div class="sns_share">
+                    <ul>
+                        <li><a href="http://facebook.com/naverd2" class="facebook"><i class="xe-facebook" target="_blank"></i></a></li>
+                        <li><a href="http://d2.naver.com/d2.atom" class="rss"><i class="xe-social-rssfeed" target="_blank"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_sec">
+                <div class="copyright">
+                    <p><span>Copyright</span> &copy; <a href="http://www.navercorp.com/" target="_blank">NAVER Corp.</a> <span>All Rights Reserved.</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="/static/js/app.js"></script><script type="text/javascript" src="/static/js/vendor.js"></script></body>
+</html>
